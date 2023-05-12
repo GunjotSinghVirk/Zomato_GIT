@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-11T17:34:30 IST" name="Surefire suite" finished-at="2023-05-11T17:37:35 IST" duration-ms="184344">
+    <groups>
+    </groups>
+    <test started-at="2023-05-11T17:34:30 IST" name="Surefire test" finished-at="2023-05-11T17:37:35 IST" duration-ms="184344">
+      <class name="Zomato.ZomatoTest2">
+        <test-method is-config="true" signature="Launch()[pri:0, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:34:30 IST" name="Launch" finished-at="2023-05-11T17:34:37 IST" duration-ms="6070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launch -->
+        <test-method signature="searchlocationfunctionality1()[pri:1, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:34:37 IST" name="searchlocationfunctionality1" finished-at="2023-05-11T17:34:41 IST" duration-ms="4263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchlocationfunctionality1 -->
+        <test-method signature="signupfunctionality()[pri:2, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:34:41 IST" name="signupfunctionality" finished-at="2023-05-11T17:35:04 IST" duration-ms="23343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality -->
+        <test-method signature="signupfunctionality2()[pri:3, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:04 IST" name="signupfunctionality2" finished-at="2023-05-11T17:35:15 IST" duration-ms="11129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality2 -->
+        <test-method signature="signupfunctionality3()[pri:4, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:15 IST" name="signupfunctionality3" finished-at="2023-05-11T17:35:23 IST" duration-ms="7896" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality3 -->
+        <test-method signature="signupfunctionality4()[pri:5, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:23 IST" name="signupfunctionality4" finished-at="2023-05-11T17:35:32 IST" duration-ms="8721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality4 -->
+        <test-method signature="signupfunctionality5()[pri:6, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:32 IST" name="signupfunctionality5" finished-at="2023-05-11T17:35:40 IST" duration-ms="8069" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality5 -->
+        <test-method signature="signupfunctionality6()[pri:7, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:40 IST" name="signupfunctionality6" finished-at="2023-05-11T17:35:45 IST" duration-ms="4814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupfunctionality6 -->
+        <test-method signature="loginfunctionality1()[pri:8, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:35:45 IST" name="loginfunctionality1" finished-at="2023-05-11T17:36:06 IST" duration-ms="21124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality1 -->
+        <test-method signature="loginfunctionality2()[pri:9, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:36:06 IST" name="loginfunctionality2" finished-at="2023-05-11T17:36:26 IST" duration-ms="20361" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality2 -->
+        <test-method signature="loginfunctionality3()[pri:10, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:36:26 IST" name="loginfunctionality3" finished-at="2023-05-11T17:36:37 IST" duration-ms="10451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality3 -->
+        <test-method signature="loginfunctionality4()[pri:11, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:36:37 IST" name="loginfunctionality4" finished-at="2023-05-11T17:36:42 IST" duration-ms="5428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality4 -->
+        <test-method signature="loginfunctionality5()[pri:12, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:36:42 IST" name="loginfunctionality5" finished-at="2023-05-11T17:36:53 IST" duration-ms="10764" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality5 -->
+        <test-method signature="loginfunctionality6()[pri:12, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:36:53 IST" name="loginfunctionality6" finished-at="2023-05-11T17:37:09 IST" duration-ms="16503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginfunctionality6 -->
+        <test-method signature="signupui1()[pri:13, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:09 IST" name="signupui1" finished-at="2023-05-11T17:37:13 IST" duration-ms="3294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui1 -->
+        <test-method signature="signupui2()[pri:14, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:13 IST" name="signupui2" finished-at="2023-05-11T17:37:16 IST" duration-ms="3061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui2 -->
+        <test-method signature="signupui3()[pri:15, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:16 IST" name="signupui3" finished-at="2023-05-11T17:37:19 IST" duration-ms="3073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui3 -->
+        <test-method signature="signupui4()[pri:16, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:19 IST" name="signupui4" finished-at="2023-05-11T17:37:22 IST" duration-ms="3047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui4 -->
+        <test-method signature="signupui5()[pri:17, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:22 IST" name="signupui5" finished-at="2023-05-11T17:37:25 IST" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui5 -->
+        <test-method signature="signupui6()[pri:18, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:25 IST" name="signupui6" finished-at="2023-05-11T17:37:28 IST" duration-ms="3053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui6 -->
+        <test-method signature="signupui7()[pri:19, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:28 IST" name="signupui7" finished-at="2023-05-11T17:37:31 IST" duration-ms="3065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui7 -->
+        <test-method signature="signupui8()[pri:20, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:31 IST" name="signupui8" finished-at="2023-05-11T17:37:34 IST" duration-ms="3054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signupui8 -->
+        <test-method is-config="true" signature="stop()[pri:0, instance:Zomato.ZomatoTest2@65466a6a]" started-at="2023-05-11T17:37:34 IST" name="stop" finished-at="2023-05-11T17:37:35 IST" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- Zomato.ZomatoTest2 -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Zomato.ZomatoTest2">
+        <methods>
+          <include name="stop"/>
+          <include name="Launch"/>
+          <include name="searchlocationfunctionality1"/>
+        </methods>
+      </class> <!-- Zomato.ZomatoTest2 -->
+      <class name="Zomato.ZomatoTest1">
+        <methods>
+          <include name="morefiltersiconvisibility"/>
+          <include name="diningouticonvisibility"/>
+          <include name="purevegiconvisibility"/>
+          <include name="filtericonclickability"/>
+          <include name="diningouticonclickability"/>
+          <include name="morefiltersiconclickability"/>
+          <include name="cuisineiconclickability"/>
+          <include name="stop"/>
+          <include name="cuisineiconvisibility"/>
+          <include name="purevegiconclickability"/>
+          <include name="ratingiconvisibility"/>
+          <include name="filtericonvisibility"/>
+          <include name="nightlifeiconvisibility"/>
+          <include name="nightlifeiconclickability"/>
+          <include name="Launch"/>
+          <include name="deliveryiconvisibility"/>
+          <include name="deliveryiconclickability"/>
+          <include name="ratingiconclickability"/>
+        </methods>
+      </class> <!-- Zomato.ZomatoTest1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

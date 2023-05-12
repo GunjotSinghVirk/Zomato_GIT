@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>21/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu May 11 17:34:30 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>184 seconds (184344 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Zomato.ZomatoTest2.searchlocationfunctionality1()'><b>searchlocationfunctionality1</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>4</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality3()'><b>signupfunctionality3</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>7</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality4()'><b>loginfunctionality4</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>5</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui2()'><b>signupui2</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui8()'><b>signupui8</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui1()'><b>signupui1</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui6()'><b>signupui6</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality5()'><b>loginfunctionality5</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>10</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui7()'><b>signupui7</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui4()'><b>signupui4</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality3()'><b>loginfunctionality3</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>10</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui3()'><b>signupui3</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality6()'><b>signupfunctionality6</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>4</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupui5()'><b>signupui5</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>3</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality2()'><b>loginfunctionality2</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>20</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality4()'><b>signupfunctionality4</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>8</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality6()'><b>loginfunctionality6</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>16</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality2()'><b>signupfunctionality2</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>11</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality5()'><b>signupfunctionality5</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>8</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.signupfunctionality()'><b>signupfunctionality</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>23</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+<tr>
+<td title='Zomato.ZomatoTest2.loginfunctionality1()'><b>loginfunctionality1</b><br>Test class: Zomato.ZomatoTest2</td>
+<td></td>
+<td>21</td>
+<td>Zomato.ZomatoTest2@65466a6a</td></tr>
+</table><p>
+</body>
+</html>
