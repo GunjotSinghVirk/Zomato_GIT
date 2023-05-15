@@ -25,7 +25,7 @@ public class ZomatoTest2 extends Zomatobase {
 	{
 		initialization();
 		Loginobj = new Zomatologin();
-		extent= new ExtentReports("C:\\Users\\gunsingh\\.jenkins\\workspace\\Zomato\\zomatologin.html", true);
+		extent= new ExtentReports("D:\\workspace\\Saucedemo\\ereport\\zomatologin.html", true);
 	}
 
 
@@ -135,12 +135,12 @@ public class ZomatoTest2 extends Zomatobase {
 		Loginobj.signupicon.click();
 		Loginobj.setsignup2(prop.getProperty("signname"), prop.getProperty("SignNewMail"));
 		Thread.sleep(4000);
-		if(Loginobj.signupsubmit.isEnabled()==false) {
+		if(Loginobj.signupsubmit.isEnabled()==true) {
 			test.log(LogStatus.PASS, "test passed");
 		} else {
 			test.log(LogStatus.FAIL, "test failed");
 		}
-		Assert.assertEquals(Loginobj.signupsubmit.isEnabled(),false);
+		Assert.assertEquals(Loginobj.signupsubmit.isEnabled(),true);
 	}
 
 	@Test (priority=8)
